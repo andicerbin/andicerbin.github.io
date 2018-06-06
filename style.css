@@ -1,0 +1,117 @@
+/*Überschrift*/
+.titel {
+  color: black;
+  background-color: lightblue; 
+  padding: 3vh;
+  justify-content:space-around;
+  align-items:center;
+    }
+/*Bild*/
+.SCO {
+	font-size: 5vh;
+    font-size: 5vw;
+	font-family:forte;
+    text-align: center;
+}
+/*Linke Seite*/
+.sidebar {
+    
+    width: 18%;
+    background-color: lightblue;
+}
+/*Menüband*/
+ul {
+    list-style-type: none;
+    font-size: 2vh;
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: lightblue;
+}
+li a {
+    font-size:2vh;
+    font-size:2vw;
+    color: #000;
+    text-decoration: none;
+}
+li a.active {
+    background-color: lightblue;
+    color: black;
+}
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+/*Kontainer über alles*/
+.div2{
+    display: flex;
+    flex-wrap:wrap; 
+}
+/*Kontainer für die Rechte Seite*/
+.div3{
+    width: 75%;
+    padding-left: 5%;    
+}
+/*Erste Überschrift*/
+.artikel0{
+    font-size: 3vh;
+    font-size: 3vw;
+    text-align: center;
+    width: 70%;
+}
+/*Erster Text*/
+.artikel_allgemein{
+    font-size: 2vh;
+    font-size: 2vw;
+}
+
+/*Zweite Überschrift*/
+.artikel{
+    font-size: 3vh;
+    font-size: 3vw;
+    text-align: center;
+    width: 70%;
+}
+/*Zweiter Text*/
+.artikel2{
+    font-size: 2vh;
+    font-size: 2vw;
+}
+
+/*Dritte Überschrift*/
+.artikel3{
+    font-size: 3vh;
+    font-size: 3vw;
+    width: 75%;
+    text-align: center;
+}
+/*Dritter Text*/
+.artikel4{
+    font-size: 2vh;
+    font-size: 2vw;
+}
+/*Vierte Überschrift*/
+.artikel5{
+    font-size: 3vh;
+    font-size: 3vw;
+    width: 75%;
+    text-align: center;
+}
+/*Vierter Text*/
+.artikel6{
+    font-size: 2vh;
+    font-size: 2vw;
+}
+
+/*Fußzeile*/
+.footer {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  font-size:2vh;
+  height: 60px;
+  background-color: black;
+  color: white;
+}
